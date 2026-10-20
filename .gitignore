@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+.DS_Store
+.ipynb_checkpoints/
+# Do not commit the three original course datasets by default:
+Loan.csv
+healthcare-dataset-stroke-data.csv
+ObesityDataSet_raw_and_data_sinthetic.csv
+processed/
+*.joblib
